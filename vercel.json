@@ -1,7 +1,19 @@
 {
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
   "rewrites": [
-    { "source": "/admin", "destination": "/backend_admin.html" },
-    { "source": "/admin/", "destination": "/backend_admin.html" },
-    { "source": "/", "destination": "/sivakumar_portfolio.html" }
+    {
+      "source": "/admin",
+      "destination": "/backend_admin.html"
+    },
+    {
+      "source": "/admin/",
+      "destination": "/backend_admin.html"
+    },
+    {
+      "source": "/",
+      "destination": "/sivakumar_portfolio.html"
+    }
   ]
 }
