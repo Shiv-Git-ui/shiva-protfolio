@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/backend_admin.html" },
+    { "source": "/", "destination": "/sivakumar_portfolio.html" }
+  ]
+}
