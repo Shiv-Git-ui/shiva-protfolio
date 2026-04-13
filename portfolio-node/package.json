@@ -1,0 +1,16 @@
+{
+  "name": "sivakumar-portfolio",
+  "version": "1.0.0",
+  "description": "Sivakumar — Equity Research Analyst Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["portfolio", "equity-research"],
+  "author": "Sivakumar",
+  "license": "UNLICENSED"
+}
