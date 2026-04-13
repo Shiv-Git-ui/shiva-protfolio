@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/admin", "dest": "/backend_admin.html" },
+    { "src": "/admin/", "dest": "/backend_admin.html" },
+    { "src": "/", "dest": "/sivakumar_portfolio.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
